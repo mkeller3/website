@@ -10,6 +10,12 @@ body {
     color:gold
 }
 
+@media only screen and (max-width: 600px) {
+    .fa-star{
+        font-size: 7px;
+    }
+}
+
 table#reference_table tr:hover {
     background-color:whitesmoke;
     cursor: pointer;
