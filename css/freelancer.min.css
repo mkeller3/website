@@ -16,6 +16,17 @@ body {
     }
 }
 
+.img-fluid{
+    height: 50%;
+    width: 30%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-size:cover;
+}
+
 table#reference_table tr:hover {
     background-color:whitesmoke;
     cursor: pointer;
